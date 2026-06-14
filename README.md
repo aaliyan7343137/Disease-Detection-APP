@@ -1,2 +1,9 @@
 # Disease-Detection-APP
 Developed a Kotlin-based Android healthcare app for Pneumonia, Parkinson’s, and Diabetes screening. Pneumonia detection uses ResNet-50 on chest X-rays, while Parkinson’s and Diabetes prediction use SVM models. The app also features a Flask API-powered chatbot trained on disease information, symptoms, prevention, and remedies.
+I developed an AI-powered healthcare application using Kotlin for Android that provides preliminary screening for three diseases: Pneumonia, Parkinson’s Disease, and Diabetes. The application allows users to submit different types of medical data and receive real-time predictions through integrated machine learning models.
+
+For Pneumonia detection, the system analyzes chest X-ray images using a ResNet-50 convolutional neural network, which classifies X-rays as pneumonia-positive or pneumonia-negative. For Parkinson’s Disease detection, the application processes voice-based features and utilizes a Support Vector Machine (SVM) classifier to predict the likelihood of Parkinson’s disease. Similarly, Diabetes prediction is performed using an SVM model trained on clinical and textual patient data.
+
+In addition to disease prediction, the application includes an AI-powered healthcare chatbot designed to assist users by providing information related to Pneumonia, Parkinson’s Disease, and Diabetes. The chatbot is trained on disease-specific knowledge, including symptoms, causes, risk factors, preventive measures, and general remedies. The chatbot backend is implemented using a Flask REST API, which handles user queries and delivers relevant responses to the Android application.
+
+The project integrates mobile application development, computer vision, machine learning, natural language interaction, and healthcare AI into a single platform. Its goal is to improve accessibility to healthcare information and support early disease screening through an intuitive and user-friendly mobile application.
